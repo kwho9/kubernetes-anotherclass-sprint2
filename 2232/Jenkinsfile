@@ -72,7 +72,7 @@ pipeline {
                     }
 
                     // 도커 이미지 삭제
-                    sh "docker rmi ${DOCKERHUB_USERNAME}/api-tester:${TAG}"
+                    //sh "docker rmi ${DOCKERHUB_USERNAME}/api-tester:${TAG}"
                 }
             }
 
